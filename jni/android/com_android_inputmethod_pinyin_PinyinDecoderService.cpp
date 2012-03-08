@@ -310,8 +310,8 @@ JNIEXPORT jboolean JNICALL nativeSyncClearLastGot(JNIEnv *env, jclass clazz) {
 static JNINativeMethod gMethods[] = {
     /* name, signature, funcPtr */
     /* ------Functions for Pinyin-to-hanzi decoding begin--------->> */
-    { "nativeImOpenDecoder", "([B[B)Z",
-            (void*) nativeImOpenDecoder },
+/*    { "nativeImOpenDecoder", "([B[B)Z",
+            (void*) nativeImOpenDecoder }, */
     { "nativeImOpenDecoderFd", "(Ljava/io/FileDescriptor;JJ[B)Z",
             (void*) nativeImOpenDecoderFd },
     { "nativeImSetMaxLens", "(II)V",
